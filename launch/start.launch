@@ -1,0 +1,4 @@
+<launch>
+   <node pkg="mypkg" name="timer" type="time.py"/>
+   <node pkg="mypkg" name="main2" type="main2.py"/> 
+</launch>
