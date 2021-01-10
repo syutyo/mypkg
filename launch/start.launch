@@ -1,4 +1,7 @@
 <launch>
-   <node pkg="mypkg" name="timer" type="time.py"/>
-   <node pkg="mypkg" name="main2" type="main2.py"/> 
+   <node pkg="mypkg" name="menu" type="menu.py"/>
+   <node pkg="mypkg" name="janken_r" type="janken_random.py"/>
+   <node pkg="mypkg" name="janken" type="janken.py"/>
+   <node pkg="mypkg" name="time" type="time.py"/>
+   <node pkg="mypkg" name="problem" type="problem.py"/> 
 </launch>
